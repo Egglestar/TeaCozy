@@ -1,0 +1,82 @@
+* {
+  border: 0.3px dashed lightblue;
+
+}
+
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+  height: auto;
+  display: flex;
+}
+
+header {
+  width: 100%;
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  padding-left: 10px;
+}
+
+.nav-bar a {
+  text-decoration: underline;
+  color: seashell;
+  padding: 0 10px;
+}
+
+.mission {
+  height: 700px;
+  background: url("/Users/steph/desktop/projects/teacozy/resources/images/img-mission-background.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-text {
+  width: 1200px;
+  height: auto;
+  background-color: black;
+  align-content: center;
+}
+.mission-text h2{
+  margin-top: 5px;
+  }
+
+.mission-text h4 {
+  margin-bottom: 5px;
+}
+
+.tea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tea-pictures {
+  width: 1000px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
