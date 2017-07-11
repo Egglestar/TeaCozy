@@ -19,7 +19,6 @@ body {
   padding: 0;
   width: 1200px;
   height: auto;
-  display: flex;
 }
 
 header {
@@ -71,6 +70,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 50px;
 }
 
 .tea-pictures {
@@ -79,4 +79,8 @@ header {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.tea-pictures h4 {
+  margin-top: 10px;
 }
