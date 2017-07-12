@@ -94,6 +94,10 @@ main {
   margin-top: 10px;
 }
 
+.blitz-tea, .rum-tea, .ave-tea {
+  margin-right: 40px;
+}
+
 .locations {
   width: 1200px;
   height: 500px;
