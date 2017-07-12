@@ -17,8 +17,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  width: 1200px;
-  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
@@ -42,6 +43,14 @@ header {
   text-decoration: underline;
   color: seashell;
   padding: 0 10px;
+}
+
+main {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 75px;
 }
 
 .mission {
@@ -83,4 +92,47 @@ header {
 
 .tea-pictures h4 {
   margin-top: 10px;
+}
+
+.locations {
+  width: 1200px;
+  height: 500px;
+  background-image: url("/Users/steph/desktop/projects/teacozy/resources/images/img-locations-background.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.locations-headline {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 15px;
+}
+
+.locations-container {
+  display: inline-flex;
+}
+
+.locations-downtown, .locations-bayside, .locations-oakdale {
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.company-name {
+  height: 200px;
+  margin-top: 0;
+}
+
+.copyright {
+  align-self: flex-start;
+  margin-left: 20px;
 }
