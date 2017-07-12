@@ -55,7 +55,7 @@ main {
 
 .mission {
   height: 700px;
-  background: url("/Users/steph/desktop/projects/teacozy/resources/images/img-mission-background.jpg");
+  background-image: url("../images/img-mission-background.jpg");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,7 +97,7 @@ main {
 .locations {
   width: 1200px;
   height: 500px;
-  background-image: url("/Users/steph/desktop/projects/teacozy/resources/images/img-locations-background.jpg");
+  background-image: url("../images/img-locations-background.jpg");
   background-size: auto;
   background-repeat: no-repeat;
   background-position: top;
